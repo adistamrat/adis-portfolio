@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adisalem Tamrat – Frontend Developer</title>
+  <meta name="description" content="Portfolio of Adisalem Tamrat, a frontend developer building fast, responsive and user-friendly websites and web apps.">
+  <meta property="og:title" content="Adisalem Tamrat – Frontend Developer">
+  <meta property="og:description" content="Modern web experiences with clean code and great design.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Adisalem Tamrat, home">
+        <span class="logo">AT</span>
+        <span class="brand-name">Adisalem Tamrat</span>
+      </a>
+
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="#home" class="is-active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <a class="btn btn-primary btn-sm talk" href="#contact">Let’s talk</a>
+        <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="eyebrow">Frontend developer</p>
+        <h1>I build modern web experiences with <span class="grad">clean code &amp; great design.</span></h1>
+        <p class="hero-sub">I’m <strong>Adisalem Tamrat</strong>, a frontend developer who enjoys creating fast, responsive and user-friendly websites and web apps.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">View my projects</a>
+          <a class="btn btn-outline" href="cv/Adisalem-Tamrat-CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats" aria-label="At a glance">
+      <ul class="stats-bar">
+        <li><span class="stat-icon" aria-hidden="true">&lt;/&gt;</span><div><strong>3+</strong><span>Years experience</span><small>Building modern web apps</small></div></li>
+        <li><span class="stat-icon" aria-hidden="true">▤</span><div><strong>10+</strong><span>Projects completed</span><small>Real world &amp; personal</small></div></li>
+        <li><span class="stat-icon" aria-hidden="true">★</span><div><strong>5+</strong><span>Technologies</span><small>HTML, CSS, JavaScript, React…</small></div></li>
+        <li><span class="stat-icon" aria-hidden="true">⚡</span><div><strong>100%</strong><span>Passion</span><small>For better user experiences</small></div></li>
+      </ul>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About me</p>
+          <h2>Designs in, working websites out.</h2>
+        </div>
+        <div class="about-text">
+          <p>I turn design mockups into responsive, accessible pages and apps. My recent work includes a real-time weather app and an e-commerce store with a working cart.</p>
+          <p>I’m now going deeper into React to build bigger, better organised applications. Replace this text with your own story, location and the kind of work you’re looking for.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Featured <span class="grad">projects</span></h2>
+            <p class="section-sub">Each project is built from a real design and focuses on clean code, performance and usability. Open one to try it live.</p>
+          </div>
+        </div>
+        <!-- Cards are created from the projects list in script.js -->
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <p class="eyebrow">Tech stack</p>
+        <h2>Skills</h2>
+        <ul class="skill-grid">
+          <li><strong>HTML5</strong><span>Semantic, accessible markup</span></li>
+          <li><strong>CSS3</strong><span>Flexbox, Grid, responsive design</span></li>
+          <li><strong>JavaScript (ES6+)</strong><span>DOM, async code, fetching APIs</span></li>
+          <li><strong>Tailwind CSS</strong><span>Utility-first styling</span></li>
+          <li><strong>React</strong><span>Currently learning</span></li>
+          <li><strong>Git &amp; GitHub</strong><span>Version control and hosting</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container contact-card">
+        <div>
+          <h2>Let’s build something amazing together.</h2>
+          <p>Have a project or a role in mind? Send me a message.</p>
+        </div>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:adistamrat00@gmail.com">adistamrat00@gamil.com</a>
+          <a class="btn btn-outline" href="https://github.com/adistamrat" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-outline" href="https://www.linkedin.com/in/adisalem-tamrat" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> <a href="https://adisalem.netlify.app/" style="text-decoration: none; color: rgb(43, 148, 148);">Adisalem Tamrat.</a> All rights reserved.</p>
+  </footer>
+
+  <!-- ===== PROJECT MODAL (live preview) ===== -->
+  <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
+    <div class="modal-head">
+      <div>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+      </div>
+      <button class="modal-close" id="modalClose" type="button" aria-label="Close preview">✕</button>
+    </div>
+    <div class="modal-tools">
+      <div class="device-toggle" role="group" aria-label="Preview size">
+        <button type="button" class="is-active" data-device="desktop" aria-pressed="true">Desktop</button>
+        <button type="button" data-device="mobile" aria-pressed="false">Mobile</button>
+      </div>
+      <a class="btn btn-outline btn-sm" id="modalOpen" href="#" target="_blank" rel="noopener">Open in new tab</a>
+    </div>
+    <div class="stage" id="modalStage">
+      <iframe id="modalFrame" title="Live project preview"></iframe>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
