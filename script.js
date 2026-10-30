@@ -5,8 +5,8 @@ const projects = [
     description: 'Real-time weather forecast app. Search any city to see current conditions, humidity, wind, pressure and a 5-day forecast. The background changes with the weather and invalid cities show a clear error.',
     short: 'Real-time weather app with city search, 5-day forecast and dynamic weather backgrounds.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Weather API'],
-    demo: 'https://mantera112.github.io/weather-forecast/',
-    code: 'https://github.com/mantera112/weather-forecast'  
+    demo: 'https://adistamrat.github.io/weather-forecast/',
+    code: 'https://github.com/adistamrat/weather-forecast'  
   },
   {
     title: 'Nova Store',
@@ -14,8 +14,8 @@ const projects = [
     description: 'E-commerce catalog and cart. Browse products from FakeStoreAPI, filter by category, sort, and use a slide-out cart with quantity controls, tax, shipping and a simulated checkout.',
     short: 'Modern store with product catalog, filters, slide-out cart and checkout simulation.',
     tags: ['HTML', 'CSS', 'JavaScript', 'FakeStoreAPI'],
-    demo: 'https://mantera112.github.io/shopping-store/',
-    code: 'https://github.com/mantera112/shopping-store'     
+    demo: 'https://adistamrat.github.io/shopping-store/',
+    code: 'https://github.com/adistamrat/shopping-store'     
   }
 ];
 
